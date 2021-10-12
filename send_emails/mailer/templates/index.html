@@ -24,7 +24,7 @@
       <h3><strong>Send E-mail</strong></h3>
 
       <form method="post">
-        {% csrf_token %} {{ form.crispy }}
+        {% csrf_token %} {{ form|crispy }}
         <br />
         <div class="text-center">
           <input
